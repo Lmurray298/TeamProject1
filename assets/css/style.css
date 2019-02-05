@@ -10,6 +10,19 @@ body{
     background-color: darkgray;
 }
 
-button{
+button,form{
     background-color: black;
+    float: right;;
+    margin: 10px;
 }
+
+.checkbox{
+    float: right;
+    margin: 40px;
+    word-spacing: 30px;
+    
+}
+
+
+
+
