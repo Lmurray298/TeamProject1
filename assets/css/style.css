@@ -3,6 +3,7 @@ h1{
     margin-right: 60%;
     padding: 50px;
     text-align: center;
+    
 
 }
 
@@ -12,16 +13,21 @@ body{
 
 button,form{
     background-color: black;
-    float: right;;
-    margin: 10px;
+    float: left;
+    margin: 40px 0px 40px 40px;
+
+    
+   
 }
 
 .checkbox{
-    float: right;
-    margin: 40px;
-    word-spacing: 30px;
+    padding:10px;
+   margin-left: 100px;
+   float: left;
     
+
 }
+
 
 
 
