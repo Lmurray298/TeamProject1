@@ -1,4 +1,4 @@
-$(document).on('click', function () {
+$(document).on('click', "#searchButton", function () {
     event.preventDefault();
     var zip = $('#searchInput').val().trim();
     console.log(zip);
