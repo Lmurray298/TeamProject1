@@ -13,3 +13,8 @@ body{
 button{
     background-color: black;
 }
+
+#map{
+    height:400px;
+    width: 400px;
+}
