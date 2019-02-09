@@ -13,7 +13,7 @@
   <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvM-cW9B1wJFyMwnNs_pThSi_n4vBQrQo&callback=initMap"
     async defer></script>
-    <script src="./assets/javascript/app.js"></script>
+  <script src="./assets/javascript/app.js"></script>
 
 </head>
 
@@ -25,20 +25,24 @@
         <h1>Weather API</h1>
       </div>
     </div>
-
     <nav class="navbar navbar-light bg-light">
       <form class="form-inline">
-        <input class="form-control mr-sm-2 " type="search" placeholder="Search by Zipcode" aria-label="Search" id="searchInput">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search by Zipcode" aria-label="Search"
+          id="searchInput">
         <button class="btn btn-outline-success my-2 my-sm-0 " id="searchButton" type="submit">Search</button>
       </form>
     </nav>
 
 
-
-    <!--Google map-->
-    <div id="map"></div>
-    
-
+    <div class="row">
+      <div class="col-sm-6">
+        <div id="map"></div>
+      </div>
+      <div class="col-sm-6">
+        <div id="weather"></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
